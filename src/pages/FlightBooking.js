@@ -1,4 +1,4 @@
-// src/pages/FlightBooking.js
+
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setBookingDetails } from '../store/flightSlice';
@@ -37,7 +37,7 @@ const FlightBooking = () => {
         />
       </div>
       <Link to="/confirmation" onClick={handleBooking}>
-        Confirm Booking
+       <button> Confirm Booking </button> 
       </Link>
     </div>
   );
